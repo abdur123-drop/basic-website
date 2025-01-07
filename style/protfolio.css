@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+}
+
+
+.color{
+    color: rgb(71, 71, 71);
+}
+
+/* font name */
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 200px;
+
+}
+.btn-primary{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 15px 35px;
+    background-color: rgb(253, 110, 10);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.r-variable{
+    color: #FD6E0A;
+}
+
+.sec-primary h4{
+    font-size: 45px;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 51px;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+}
+
+/* aktu nica */
+header{
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 0 38px 0 230px;
+    background-image: url(../images/header_bg.png);
+    background-position: bottom right;
+    
+    background-repeat: no-repeat;
+}
+.banner-picture{
+    height: 676px;
+}
+
+.text-child4{
+    font-size: 55px;
+    font-weight: 600px;
+    margin-bottom: 5px;
+}
+
+.text-child1{
+    font-size: 95px;
+    color: rgb(24, 24, 24);
+    margin-bottom: 20px;
+}
+
+.text-p{
+    color: rgb(117, 117, 117);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-contact{
+    background-color: white;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    margin-left: 20px;
+}
+
+
+
