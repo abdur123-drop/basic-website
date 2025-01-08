@@ -153,7 +153,7 @@ header{
 .main-primary{
     /* width: 800px; */
     padding: 130px;
-    margin: 230px auto;
+    margin: 230px auto 50px;
     
 }
 .main-p{
@@ -245,5 +245,100 @@ header{
 /* new summary */
 
 
+.summary-main{
+    display: flex;
+    gap: 20px;
+    padding: 0px 230px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.summary-h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 150px;
+}
+
+.summary-main-first{
+    padding: 10px 80px 0px 0px;
+}
+
+.second-1{
+    margin-bottom: 20px;
+}
+hr{
+    margin-bottom: 20px;
+}
+
+.first-h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.sec-h4{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.sec-h5{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.sec-p{
+    font-size: 16px;
+}
+
+.second-h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    
+}
+
+.color-summary{
+    color: rgb(71, 71, 71)
+}
+.color-summary-1{
+    color: rgb(117, 117, 117);
+}
+
+.extra-btn{
+    text-align: center;
+    padding: 50px 0px;
+    
+}
 
 
+/* footer */
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px 50px 230px;
+    margin-top: 100px;
+}
+
+.first-foot p{
+    margin: 30px 0px;
+    
+}
+#second-foot{
+    display: block;
+}
+
+footer input[type="text"], footer input[type="email"] {
+    width: 100%;
+    /* height: 64px; */
+    padding: 18px 0px 18px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+footer .textarea{
+    width: 100%;
+    padding: 18px 0px 18px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
